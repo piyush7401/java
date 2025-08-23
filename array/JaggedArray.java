@@ -15,6 +15,7 @@ public class JaggedArray {
                 arr[i][j] = s.nextInt();
             }
         }
+        Arrays.sort(arr[1]); //we can sort 1d array
 
         for (int x[] : arr) {
             for (int y : x) {
@@ -22,5 +23,6 @@ public class JaggedArray {
             }
             System.out.println();
         }
+
     }
 }
